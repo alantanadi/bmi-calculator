@@ -39,6 +39,8 @@ function countBmi() {
         result = "Kelebihan Berat Badan";
     } else if (30 <= bmi && bmi <= 34.9) {
         result = "Kegemukan (obesitas)";
+    } else if(bmi >= 35.0) {
+        result = "Kegemukan Ekstrim";
     }
 
     bmi = bmi.toFixed(2);
@@ -49,5 +51,5 @@ function countBmi() {
     document
         .getElementById("submit")
         .removeEventListener("click", validateForm);
+    document.getElementById("submit").addEventListener("click", countBmi);
 }
-document.getElementById("submit").addEventListener("click", countBmi);
