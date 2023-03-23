@@ -60,10 +60,6 @@ body {
     outline: none;
     cursor: pointer;
 }
-.reset {
-    cursor: pointer;
-    border: none;
-}
 .text {
     display: inline-block;
     margin: 5px 20px 5px 8px;
