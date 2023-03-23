@@ -62,6 +62,7 @@ body {
 }
 .reset {
     cursor: pointer;
+    border: none;
 }
 .text {
     display: inline-block;
